@@ -6,7 +6,7 @@ export function CreateTodo(){
         <input style={{
             padding:10,
             margin:10
-        }} type="text" placeholder = "title" onChange={function(e){
+        }} type="text" placeholder = "title" onChange={(e)=>{
             const value = e.target.value;
             setTitle(e.target.value);
         }}></input>
